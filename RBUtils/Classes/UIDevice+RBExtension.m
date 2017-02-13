@@ -9,6 +9,7 @@
 #import "UIDevice+RBExtension.h"
 #import <sys/sysctl.h>
 #import <sys/utsname.h>
+#import <SystemConfiguration/CaptiveNetwork.h>
 @implementation UIDevice (RBExtension)
 // Device Name
 + (NSString *)deviceName {
@@ -247,5 +248,27 @@
         return -1;
     }
 }
++(NSString *) currentWifiSSID
+{
+#if TARGET_OS_SIMULATOR
+    return @"(simulator)";
+#else
+    NSArray *ifs = (__bridge id)CNCopySupportedInterfaces();
+    
+    id info = nil;
+    for (NSString *ifnam in ifs) {
+        info = (__bridge id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
+        if (info && [info count]) {
+            break;
+        }
+    }
+    NSDictionary *dctySSID = (NSDictionary *)info;
+    NSString *ssid = [dctySSID objectForKey:@"SSID"] ;
+    
+    return ssid;
+#endif
+}
+
+
 
 @end

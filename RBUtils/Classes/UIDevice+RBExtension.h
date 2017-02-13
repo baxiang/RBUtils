@@ -30,4 +30,7 @@
 // Get the Screen Height (Y)
 + (NSInteger)screenHeight;
 
++ (NSDictionary *)currentWifiSSID;
+
+
 @end
