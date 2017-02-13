@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSArray+RBExtension.h"
 #import "NSDate+RBExtension.h"
 #import "RBFileManager.h"
 #import "UIDevice+RBExtension.h"
