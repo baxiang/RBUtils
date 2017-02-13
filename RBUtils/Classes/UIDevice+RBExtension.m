@@ -8,7 +8,6 @@
 
 #import "UIDevice+RBExtension.h"
 #import <sys/sysctl.h>
-// utsname
 #import <sys/utsname.h>
 @implementation UIDevice (RBExtension)
 // Device Name
