@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RBUtils_Example' do
+  pod 'RBUtils', :path => '../'
+
+  target 'RBUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
