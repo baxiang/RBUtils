@@ -1,0 +1,6 @@
+framework module RBUtils {
+  umbrella header "RBUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

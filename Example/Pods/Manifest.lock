@@ -1,0 +1,16 @@
+PODS:
+  - RBUtils (1.0.0)
+
+DEPENDENCIES:
+  - RBUtils (from `../`)
+
+EXTERNAL SOURCES:
+  RBUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RBUtils: 44d43cd92a0b24feef259449d05bdd9649fcad82
+
+PODFILE CHECKSUM: 6b4258ca4979e7ae4af3aaf10d35c61f1d1b894b
+
+COCOAPODS: 1.2.0.beta.3

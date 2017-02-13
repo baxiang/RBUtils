@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		651A4164C263FB93D79C04E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		651A4164C263FB93D79C04E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A44AE8910155045BE865D2E /* Pods-RBUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBUtils_Tests/Pods-RBUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DBFB1476BDE2CC2E8DA51BC /* Pods-RBUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RBUtils_Tests/Pods-RBUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8EA7691B43521E128D616337 /* Pods-RBUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RBUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RBUtils_Example/Pods-RBUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA477938F262527B9BB18664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA477938F262527B9BB18664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED6EC064EEC4D55AC9126BF5 /* Pods_RBUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC93E2EF68BBE87B0D2B6BFF /* RBUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RBUtils.podspec; path = ../RBUtils.podspec; sourceTree = "<group>"; };
+		FC93E2EF68BBE87B0D2B6BFF /* RBUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RBUtils.podspec; path = ../RBUtils.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = baxiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8WHZ7G4S7Z;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,12 +528,15 @@
 			baseConfigurationReference = 8EA7691B43521E128D616337 /* Pods-RBUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RBUtils/RBUtils-Prefix.pch";
 				INFOPLIST_FILE = "RBUtils/RBUtils-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "663dedd6-7e05-4498-ac4d-16fc5620eb95";
+				PROVISIONING_PROFILE_SPECIFIER = ios_team_developer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,6 +546,7 @@
 			baseConfigurationReference = 2E2311828D0D7F6C3B0C4396 /* Pods-RBUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RBUtils/RBUtils-Prefix.pch";
 				INFOPLIST_FILE = "RBUtils/RBUtils-Info.plist";

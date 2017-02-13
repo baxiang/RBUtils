@@ -1,0 +1,6 @@
+framework module Pods_RBUtils_Example {
+  umbrella header "Pods-RBUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
