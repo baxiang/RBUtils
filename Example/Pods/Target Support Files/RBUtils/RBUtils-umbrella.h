@@ -16,6 +16,7 @@
 #import "NSString+RBExtension.h"
 #import "RBFileManager.h"
 #import "RBMacroUtile.h"
+#import "UIColor+RBExtension.h"
 #import "UIDevice+RBExtension.h"
 #import "UIImage+RBExtension.h"
 #import "UIView+RBLayout.h"
