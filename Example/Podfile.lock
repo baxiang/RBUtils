@@ -1,5 +1,5 @@
 PODS:
-  - RBUtils (1.0.3)
+  - RBUtils (1.0.4)
 
 DEPENDENCIES:
   - RBUtils (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  RBUtils: a8ec3d1f1a8f125070546c1e0d26b7d3cfaa67d5
+  RBUtils: a8bc4e98cd5725b08f51cc26e33d47fb61176011
 
 PODFILE CHECKSUM: 6b4258ca4979e7ae4af3aaf10d35c61f1d1b894b
 

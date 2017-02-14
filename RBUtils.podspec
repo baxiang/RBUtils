@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RBUtils'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A collection of common tools for ios development'
   s.homepage         = 'https://github.com/baxiang/RBUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
