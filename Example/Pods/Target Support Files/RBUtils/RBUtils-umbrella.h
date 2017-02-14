@@ -11,8 +11,11 @@
 #endif
 
 #import "NSArray+RBExtension.h"
+#import "NSData+RBExtension.h"
 #import "NSDate+RBExtension.h"
+#import "NSString+RBExtension.h"
 #import "RBFileManager.h"
+#import "RBMacroUtile.h"
 #import "UIDevice+RBExtension.h"
 #import "UIImage+RBExtension.h"
 #import "UIView+RBLayout.h"
