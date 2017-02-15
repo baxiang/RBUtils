@@ -31,6 +31,8 @@
 		B8157202E6B1742461A662BC3801FE48 /* NSArray+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F7322834514005B8C22CF54F8CC00C /* NSArray+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C26445EC1E546BB300A2798E /* NSObject+RBSelectorAvoid.h in Headers */ = {isa = PBXBuildFile; fileRef = C26445EA1E546BB300A2798E /* NSObject+RBSelectorAvoid.h */; };
 		C26445ED1E546BB300A2798E /* NSObject+RBSelectorAvoid.m in Sources */ = {isa = PBXBuildFile; fileRef = C26445EB1E546BB300A2798E /* NSObject+RBSelectorAvoid.m */; };
+		C26446001E547B9A00A2798E /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = C26445FE1E547B9A00A2798E /* UIImage+ImageEffects.h */; };
+		C26446011E547B9A00A2798E /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C26445FF1E547B9A00A2798E /* UIImage+ImageEffects.m */; };
 		CE9024D665CFA869FE9542D2AC0650E6 /* Pods-RBUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2419AD61065A398D990F171DB34F6 /* Pods-RBUtils_Tests-dummy.m */; };
 		CFADCAB15829550392044939176D3DF3 /* NSDate+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF104256D0B0E7E6E713B213DB8213B /* NSDate+RBExtension.m */; };
 		D430606AD610035113E3195D48B39BC6 /* Pods-RBUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F48B5F71C5D80458C24A900A53CBF9 /* Pods-RBUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,6 +98,8 @@
 		AF518C40314B054F8CDFE02F46593D1E /* Pods_RBUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26445EA1E546BB300A2798E /* NSObject+RBSelectorAvoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBSelectorAvoid.h"; sourceTree = "<group>"; };
 		C26445EB1E546BB300A2798E /* NSObject+RBSelectorAvoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBSelectorAvoid.m"; sourceTree = "<group>"; };
+		C26445FE1E547B9A00A2798E /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C26445FF1E547B9A00A2798E /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		C2E1342CC66B8C0D24C9C3FFB2BE2ED0 /* NSData+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+RBExtension.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4FF3F9C3F69794F7F731A165A734BE7 /* NSString+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RBExtension.h"; sourceTree = "<group>"; };
@@ -239,6 +243,8 @@
 		D31275ABB0F63CDAFBB5D9AB17272EA6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C26445FE1E547B9A00A2798E /* UIImage+ImageEffects.h */,
+				C26445FF1E547B9A00A2798E /* UIImage+ImageEffects.m */,
 				49F7322834514005B8C22CF54F8CC00C /* NSArray+RBExtension.h */,
 				4A8C639EA67C834A2D5905E4C6B0761F /* NSArray+RBExtension.m */,
 				6EB9387B428FC3E6C2EF11B53D804868 /* NSData+RBExtension.h */,
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F74218025AE7550B3AAF236BD4971A6 /* Pods-RBUtils_Example-umbrella.h in Headers */,
+				C26446001E547B9A00A2798E /* UIImage+ImageEffects.h in Headers */,
 				C26445EC1E546BB300A2798E /* NSObject+RBSelectorAvoid.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +432,7 @@
 			files = (
 				C26445ED1E546BB300A2798E /* NSObject+RBSelectorAvoid.m in Sources */,
 				D829621B74894943C27D39D08101283D /* Pods-RBUtils_Example-dummy.m in Sources */,
+				C26446011E547B9A00A2798E /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
