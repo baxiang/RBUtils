@@ -13,6 +13,7 @@
 #import "NSArray+RBExtension.h"
 #import "NSData+RBExtension.h"
 #import "NSDate+RBExtension.h"
+#import "NSDictionary+RBExtension.h"
 #import "NSString+RBExtension.h"
 #import "RBFileManager.h"
 #import "RBMacroUtile.h"
