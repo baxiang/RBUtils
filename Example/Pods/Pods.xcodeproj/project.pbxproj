@@ -29,6 +29,8 @@
 		A29493357FA1B50CD18CE55F109245B5 /* RBUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1777630969961BB3681FEF6FAABB7ABC /* RBUtils-dummy.m */; };
 		AF2C861B84494188D98675E26E6143C9 /* UIView+RBLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE79D88816909B820F612FB7E9C017C /* UIView+RBLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8157202E6B1742461A662BC3801FE48 /* NSArray+RBExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F7322834514005B8C22CF54F8CC00C /* NSArray+RBExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C26445EC1E546BB300A2798E /* NSObject+RBSelectorAvoid.h in Headers */ = {isa = PBXBuildFile; fileRef = C26445EA1E546BB300A2798E /* NSObject+RBSelectorAvoid.h */; };
+		C26445ED1E546BB300A2798E /* NSObject+RBSelectorAvoid.m in Sources */ = {isa = PBXBuildFile; fileRef = C26445EB1E546BB300A2798E /* NSObject+RBSelectorAvoid.m */; };
 		CE9024D665CFA869FE9542D2AC0650E6 /* Pods-RBUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C2419AD61065A398D990F171DB34F6 /* Pods-RBUtils_Tests-dummy.m */; };
 		CFADCAB15829550392044939176D3DF3 /* NSDate+RBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF104256D0B0E7E6E713B213DB8213B /* NSDate+RBExtension.m */; };
 		D430606AD610035113E3195D48B39BC6 /* Pods-RBUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F48B5F71C5D80458C24A900A53CBF9 /* Pods-RBUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,19 +81,21 @@
 		748AC227154E00A54B5BBEF2D5D34E29 /* Pods-RBUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A15282D507A30E26F0FEEA0911EBB49 /* Pods-RBUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		866496005CA468C5A3D1F52FD5AC897D /* Pods-RBUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		89034873D42E01C7FC8281327D4C99C6 /* Pods-RBUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RBUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		89034873D42E01C7FC8281327D4C99C6 /* Pods-RBUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		8AC319C893A5F5E3C7DC03234C68C467 /* Pods-RBUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBUtils_Example-dummy.m"; sourceTree = "<group>"; };
 		8DF1267C8677346E5146FFE6094E17BC /* Pods-RBUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9644C69ED75EF873A4B413EE954C50C3 /* RBUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RBUtils.framework; path = RBUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9644C69ED75EF873A4B413EE954C50C3 /* RBUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B83074D1B74161AD69C629DE5027CF /* UIImage+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+RBExtension.h"; sourceTree = "<group>"; };
 		9FF104256D0B0E7E6E713B213DB8213B /* NSDate+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RBExtension.m"; sourceTree = "<group>"; };
 		A02B3D3FC00F5A23CC5B8963B33B77C1 /* RBUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBUtils-prefix.pch"; sourceTree = "<group>"; };
-		A19A92A55F2C32C2F0F17EA47212684E /* RBUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RBUtils.modulemap; sourceTree = "<group>"; };
+		A19A92A55F2C32C2F0F17EA47212684E /* RBUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RBUtils.modulemap; sourceTree = "<group>"; };
 		A292D4DC77AF516C2474A7220B83AB27 /* UIDevice+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+RBExtension.m"; sourceTree = "<group>"; };
-		A6C5F4C291065A0256C4DD79BDF181B1 /* Pods-RBUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RBUtils_Example.modulemap"; sourceTree = "<group>"; };
+		A6C5F4C291065A0256C4DD79BDF181B1 /* Pods-RBUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RBUtils_Example.modulemap"; sourceTree = "<group>"; };
 		AF15D3339F4CD03C80B0686A896E465C /* Pods-RBUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF518C40314B054F8CDFE02F46593D1E /* Pods_RBUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RBUtils_Example.framework; path = "Pods-RBUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF518C40314B054F8CDFE02F46593D1E /* Pods_RBUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26445EA1E546BB300A2798E /* NSObject+RBSelectorAvoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RBSelectorAvoid.h"; sourceTree = "<group>"; };
+		C26445EB1E546BB300A2798E /* NSObject+RBSelectorAvoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RBSelectorAvoid.m"; sourceTree = "<group>"; };
 		C2E1342CC66B8C0D24C9C3FFB2BE2ED0 /* NSData+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+RBExtension.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4FF3F9C3F69794F7F731A165A734BE7 /* NSString+RBExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+RBExtension.h"; sourceTree = "<group>"; };
@@ -100,7 +104,7 @@
 		E19E8CF9B41BA8352FB29601B77E5982 /* Pods-RBUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6A9AF07452670762F3F25F09340FBB7 /* UIImage+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RBExtension.m"; sourceTree = "<group>"; };
 		EBECEF6C5DABCA58266353B06B80BBB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F029236E9697EF2A9461C97BBF778512 /* Pods_RBUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RBUtils_Tests.framework; path = "Pods-RBUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029236E9697EF2A9461C97BBF778512 /* Pods_RBUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95658F50EEA6A033386EADFA52862C /* NSDictionary+RBExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RBExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,8 +260,9 @@
 				E6A9AF07452670762F3F25F09340FBB7 /* UIImage+RBExtension.m */,
 				1DE79D88816909B820F612FB7E9C017C /* UIView+RBLayout.h */,
 				1883E1618BFF21686AD0C6DF931E7A7F /* UIView+RBLayout.m */,
+				C26445EA1E546BB300A2798E /* NSObject+RBSelectorAvoid.h */,
+				C26445EB1E546BB300A2798E /* NSObject+RBSelectorAvoid.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -266,7 +271,6 @@
 			children = (
 				D31275ABB0F63CDAFBB5D9AB17272EA6 /* Classes */,
 			);
-			name = RBUtils;
 			path = RBUtils;
 			sourceTree = "<group>";
 		};
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F74218025AE7550B3AAF236BD4971A6 /* Pods-RBUtils_Example-umbrella.h in Headers */,
+				C26445EC1E546BB300A2798E /* NSObject+RBSelectorAvoid.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26445ED1E546BB300A2798E /* NSObject+RBSelectorAvoid.m in Sources */,
 				D829621B74894943C27D39D08101283D /* Pods-RBUtils_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
